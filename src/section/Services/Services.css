@@ -1,0 +1,25 @@
+.service-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.service-detail-table {
+  width: 60%;
+  margin: 3vw 0 3vw 0;
+}
+
+.service-detail-table-td {
+  padding-bottom: 2vw;
+}
+
+.service-detail-title {
+  font-family: "AvenirNextLTProRegular";
+  font-size: 1.7vw;
+}
+
+.service-detail-text {
+  font-family: "Aptos";
+  font-size: 1.4vw;
+}

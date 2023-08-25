@@ -1,0 +1,18 @@
+.left-vl-table {
+  width: 60%;
+  margin: 3vw 0 3vw 0;
+}
+
+.left-vl-title {
+  color: black;
+  font-size: 2vw;
+  font-family: "AptosBold";
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.left-vl-text {
+  font-family: "Aptos";
+  text-align: justify;
+  font-size: 1.7vw;
+}

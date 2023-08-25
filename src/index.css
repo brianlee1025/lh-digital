@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Aptos";
+  src: local("Aptos"), url("./assets/fonts/aptos.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AptosBold";
+  src: local("AptosBold"),
+    url("./assets/fonts/aptos-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AptosLight";
+  src: local("AptosLight"),
+    url("./assets/fonts/aptos-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AvenirNextLTProRegular";
+  src: local("AvenirNextLTProRegular"),
+    url("./assets/fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AvenirNextLTProBold";
+  src: local("AvenirNextLTProBold"),
+    url("./assets/fonts/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AvenirNextLTProDemi";
+  src: local("AvenirNextLTProDemi"),
+    url("./assets/fonts/AvenirNextLTPro-Demi.otf") format("opentype");
+}
+
+:root {
+  --cong-lu-green: #04bf8a;
+  --maniac-mansion: #024059;
+  --clay-slate-wacke: #cbc9cf;
+}
+
+body,
+html {
+  margin: 0;
+}
+
+.white-vl {
+  border-left: 1px solid white;
+  height: 9vw;
+  margin: 0 1vw 0 1vw;
+}
+
+.cong-lu-green-vl {
+  border-left: 1vw solid var(--cong-lu-green);
+  height: 100%;
+  padding-right: 3vw;
+}
+
+.cong-lu-green {
+  color: var(--cong-lu-green);
+}
+
+.cong-lu-green-bold {
+  color: var(--cong-lu-green);
+  font-weight: bold;
+}
+
+.bg-cong-lu-green {
+  background-color: var(--cong-lu-green);
+}
+
+.bg-maniac-mansion {
+  background-color: var(--maniac-mansion) !important;
+}
+
+.clay-slate-wacke {
+  color: var(--clay-slate-wacke);
+}
+
+table {
+  height: 1px;
+} /* Will be ignored, don't worry. */
+tr {
+  height: 100%;
+}
+td {
+  height: 100%;
+}
+td > div {
+  height: 100%;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container,
+  .container-sm {
+    max-width: 650px;
+  }
+}

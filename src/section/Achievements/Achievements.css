@@ -1,0 +1,29 @@
+.achievement-table {
+  margin: auto;
+  margin-top: 4vw;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.achievement-table tr:nth-child(1) td {
+  padding: 1.5vw 1.5vw 1vw 1.5vw;
+  vertical-align: text-top;
+  line-height: 2.2vw;
+  font-size: 2vw;
+  font-family: "AvenirNextLTProRegular";
+}
+
+.achievement-table tr:nth-child(2) td {
+  padding: 0 1.5vw 0 1.5vw;
+}
+
+.achievement-table tr:nth-child(2) td hr {
+  opacity: 1;
+  margin: 1vw 0;
+}
+
+.achievement-table tr:nth-child(3) td {
+  padding: 1vw 1.5vw 1.5vw 1.5vw;
+  font-family: "AvenirNextLTProBold";
+  font-size: 4vw;
+}

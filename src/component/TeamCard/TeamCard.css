@@ -1,0 +1,57 @@
+.team-card {
+  border-radius: 25px !important;
+  overflow: visible !important;
+  max-width: 25vw;
+  margin: auto;
+  margin-top: 8vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-card-div {
+  transform: translateY(-5vw);
+  flex: 1; /* consumes all free space (taking full height) */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .team-card-content {
+} */
+
+.team-card-content p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.team-card-content-position {
+  font-family: "Aptos";
+  font-size: 1.3vw;
+}
+
+.team-card-content-name {
+  font-family: "AvenirNextLTProBold";
+  color: white;
+  font-size: 1.5vw;
+  padding-bottom: 1vw;
+}
+
+.team-card-content-details {
+  color: white;
+  font-family: "Aptos";
+  font-size: 1.15vw;
+  margin-bottom: 0;
+  padding-left: 2vw;
+}
+
+.team-card-content-details-regular {
+  font-family: "Aptos";
+}
+
+.team-card-content-details-bold {
+  font-family: "AptosBold";
+}
+
+.team-card-content-details li:not(:last-child) {
+  padding-bottom: 1.5vw;
+}
