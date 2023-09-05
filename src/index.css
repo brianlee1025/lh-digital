@@ -37,6 +37,8 @@
   --cong-lu-green: #04bf8a;
   --maniac-mansion: #024059;
   --clay-slate-wacke: #cbc9cf;
+  --tetsu-green: #025645;
+  --census: #337b68;
 }
 
 body,
@@ -48,6 +50,12 @@ html {
   border-left: 1px solid white;
   height: 9vw;
   margin: 0 1vw 0 1vw;
+}
+
+.black-vl {
+  border-left: 1px solid black;
+  height: 3vw;
+  margin: 2vw 0.5vw 2vw 0.5vw !important;
 }
 
 .cong-lu-green-vl {
@@ -75,6 +83,14 @@ html {
 
 .clay-slate-wacke {
   color: var(--clay-slate-wacke);
+}
+
+.tetsu-green {
+  color: var(--tetsu-green);
+}
+
+.census {
+  color: var(--census);
 }
 
 table {

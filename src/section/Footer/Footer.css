@@ -1,0 +1,62 @@
+.footer-container {
+  height: 8vh;
+}
+
+.footer-container hr {
+  opacity: 1;
+  margin: 0;
+}
+
+.footer-main {
+  height: inherit;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-logo {
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+  height: 4vw;
+  background: url("/src/assets/images/lh_logo.png") no-repeat left center;
+  background-size: contain;
+}
+
+.footer-detail {
+  margin: auto;
+  font-size: 1.7vw;
+  font-family: "AvenirNextLTProBold";
+  display: flex;
+}
+
+.footer-detail span {
+  margin: auto;
+}
+
+.footer-social-media {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  text-align: right;
+}
+
+.footer-social-media img {
+  width: 2vw;
+  margin: 0.5vw;
+}
+.footer-social-media img:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.footer-copyright {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  text-align: right;
+}
+
+.footer-copyright span {
+  font-family: "AvenirNextLTProRegular";
+  font-size: 1vw;
+}

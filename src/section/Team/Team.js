@@ -14,9 +14,12 @@ function Team() {
   const leftVLTableTeamProp = {
     title: "Team",
     details: [
-      "We are a team of diverse backgrounds, qualifications, experiences, skills - enabling us to",
-      " consult end-to-end",
-      " on challenges of the web3 world",
+      <span>
+        We are a team of diverse backgrounds, qualifications, experiences,
+        skills - enabling us to
+      </span>,
+      <span className="cong-lu-green-bold"> consult end-to-end</span>,
+      <span> on challenges of the web3 world</span>,
     ],
   };
 

@@ -7,11 +7,21 @@ function Services() {
   const leftVLTableServiceProp = {
     title: "Services",
     details: [
-      "We adopt an",
-      " extensively hands-on approach",
-      " in",
-      " assisting projects to realize their full potential",
-      " by providing angel investments, fundraising support & full stack consulting",
+      <span>We adopt an</span>,
+      <span className="cong-lu-green-bold">
+        {" "}
+        extensively hands-on approach
+      </span>,
+      <span> in</span>,
+      <span className="cong-lu-green-bold">
+        {" "}
+        assisting projects to realize their full potential
+      </span>,
+      <span>
+        {" "}
+        by providing angel investments, fundraising support & full stack
+        consulting
+      </span>,
     ],
   };
   return (

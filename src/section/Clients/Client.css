@@ -1,0 +1,14 @@
+.clients-div {
+  margin: 2vw auto;
+  display: grid;
+  gap: 1;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-div img {
+  display: flex;
+  margin: auto;
+  width: 10vw;
+}

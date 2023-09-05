@@ -16,14 +16,7 @@ function LeftVLTable(props) {
         <tr>
           <td className="left-vl-text">
             {details.map((d, i) => {
-              return (
-                <span
-                  className={i % 2 === 0 ? "" : "cong-lu-green-bold"}
-                  key={"span-" + title + "-" + i}
-                >
-                  {d}
-                </span>
-              );
+              return <React.Fragment key={i}>{d}</React.Fragment>;
             })}
           </td>
         </tr>
