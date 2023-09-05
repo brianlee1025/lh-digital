@@ -7,6 +7,8 @@ import JT from "../../assets/images/jt.jpg";
 import TAN from "../../assets/images/tan.png";
 import JASON from "../../assets/images/jason.png";
 import LeftVLTable from "../../component/LeftVLTable/LeftVLTable";
+import Achievements from "../Achievements/Achievements";
+import Advisors from "../Advisors/Advisors";
 
 function Team() {
   const leftVLTableTeamProp = {
@@ -82,6 +84,12 @@ function Team() {
             return <TeamCard member={m} key={i}></TeamCard>;
           })}
         </div>
+        <Achievements></Achievements>
+        <span className="talent">Talent with experience from</span>
+
+        <div className="team-talent-carousel"></div>
+
+        <Advisors></Advisors>
       </Container>
     </React.Fragment>
   );

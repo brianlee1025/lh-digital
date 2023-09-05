@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 import NavigationBar from "./component/NavigationBar/NavigationBar";
-import Achievements from "./section/Achievements/Achievements";
+import Contact from "./section/Contact/Contact";
+import Edge from "./section/Edge/Edge";
 import Introduction from "./section/Introduction/Introduction";
 import Services from "./section/Services/Services";
 import Team from "./section/Team/Team";
@@ -13,7 +14,8 @@ function App() {
       <Introduction></Introduction>
       <Services></Services>
       <Team></Team>
-      <Achievements></Achievements>
+      <Edge></Edge>
+      <Contact></Contact>
     </div>
   );
 }

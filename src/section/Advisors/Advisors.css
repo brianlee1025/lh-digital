@@ -1,0 +1,36 @@
+.advisors-div {
+  margin: auto;
+}
+
+.advisors-title {
+  font-family: "AvenirNextLTProRegular";
+  font-size: 2vw;
+  padding-left: 2.5vw;
+}
+
+.advisors-tables {
+  padding: 1vw 0 1vw 0;
+}
+
+.advisors-tables table {
+  margin: auto;
+  margin-top: 4vw;
+  text-align: center;
+  table-layout: fixed;
+  width: 80%;
+}
+
+.advisors-names {
+  font-family: "AptosBold";
+  font-size: 1.7vw;
+}
+
+.advisors-desc {
+  font-family: "AptosRegular";
+  font-size: 1.7vw;
+}
+
+.advisors-etc {
+  font-family: "AptosBold";
+  font-size: 1.7vw;
+}

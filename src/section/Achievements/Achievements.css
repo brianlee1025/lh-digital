@@ -1,6 +1,7 @@
 .achievement-table {
   margin: auto;
   margin-top: 4vw;
+  margin-bottom: 4vw;
   table-layout: fixed;
   width: 100%;
 }
