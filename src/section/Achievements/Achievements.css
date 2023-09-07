@@ -1,7 +1,7 @@
 .achievement-table {
   margin: auto;
-  margin-top: 4vw;
-  margin-bottom: 4vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
   table-layout: fixed;
   width: 100%;
 }
@@ -27,4 +27,10 @@
   padding: 1vw 1.5vw 1.5vw 1.5vw;
   font-family: "AvenirNextLTProBold";
   font-size: 4vw;
+}
+
+@media (min-width: 921px) and (max-width: 991px) {
+  .achievement-table tr:nth-child(3) td {
+    font-size: 3.6vw;
+  }
 }

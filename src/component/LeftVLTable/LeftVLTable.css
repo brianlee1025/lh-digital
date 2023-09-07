@@ -1,6 +1,11 @@
 .left-vl-table {
   width: 60%;
   margin: 3vw 0 3vw 0;
+  table-layout: fixed;
+}
+
+.left-vl-table tr:nth-child(1) td:nth-child(1) {
+  width: 4.5vw;
 }
 
 .left-vl-title {
@@ -8,7 +13,7 @@
   font-size: 2vw;
   font-family: "AptosBold";
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 1vw;
 }
 
 .left-vl-text {

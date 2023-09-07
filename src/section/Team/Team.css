@@ -1,7 +1,7 @@
 .team-members {
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 7vw;
   display: grid;
-  gap: 1;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -12,15 +12,15 @@
 }
 
 .team-talent-carousel {
-  margin: 3vw 0 3vw 0;
+  margin: 2vw 0 1vw 0;
   white-space: nowrap;
   overflow: hidden;
   background: url("/src/assets/images/talent_images_white_bg.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: repeat-x;
-  width: 100%;
+  background-position: 1280px 80px;
   height: 8vw;
-  animation: bgScrollLeft 5s linear infinite;
+  animation: bgScrollLeft 10s linear infinite;
 }
 
 .team-talent-carousel:hover {
@@ -32,6 +32,6 @@
     background-position: 0 0;
   }
   to {
-    background-position: -1280px 0;
+    background-position: -1295px 0;
   }
 }

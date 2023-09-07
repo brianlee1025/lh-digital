@@ -103,7 +103,7 @@ function Edge() {
 
   return (
     <React.Fragment>
-      <Container>
+      <Container id="Edge">
         <LeftVLTable data={leftVLTableEdgeProp}></LeftVLTable>
       </Container>
       <div className="edge-detail bg-maniac-mansion">

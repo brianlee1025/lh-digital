@@ -29,4 +29,81 @@
 
 .nav-link:hover {
   transform: scale(1.05);
+  color: var(--cong-lu-green);
+}
+
+.navbar-toggler {
+  font-size: 2.5vw;
+  height: 5vh;
+}
+
+.navbar-toggler:hover .lh-logo {
+  transform: rotate(-45deg);
+}
+
+.lh-logo div {
+  height: 0.5vh;
+  width: 2.5vh;
+  margin: auto;
+  border-radius: 1px;
+}
+
+.lh-logo div:nth-child(1) {
+  margin-bottom: 0.5vw;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+}
+
+.offcanvas-body {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 575px) {
+  .lh-logo div:nth-child(1) {
+    margin-bottom: 1vw;
+  }
+
+  .offcanvas.offcanvas-end {
+    border-left: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .lh-logo div:nth-child(1) {
+    margin-bottom: 0.8vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .offcanvas {
+    background: rgba(66, 65, 67, 0.8);
+  }
+
+  .offcanvas-header .btn-close {
+    background-color: red;
+  }
+
+  .offcanvas-body {
+    display: flex;
+  }
+
+  .offcanvas-body .navbar-nav {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .offcanvas-body .nav-link {
+    margin: 1em 2em 1em 2em;
+    border-radius: 1vw;
+    background: rgb(0, 41, 28);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 41, 28, 1) 0%,
+      rgba(2, 86, 69, 1) 35%,
+      rgba(4, 191, 138, 1) 100%
+    );
+  }
 }

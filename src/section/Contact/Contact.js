@@ -7,8 +7,9 @@ function Contact() {
   const leftVLTableContactProp = {
     title: "Contact",
     details: [
-      <span>Get in touch with us today @ </span>,
+      <span>Get in touch with us today </span>,
       <a
+        style={{ display: "block" }}
         className="cong-lu-green-bold"
         href="mailto:contact@lighthousedigital.xyz"
       >
@@ -18,7 +19,7 @@ function Contact() {
   };
 
   return (
-    <Container>
+    <Container id="Contact">
       <LeftVLTable data={leftVLTableContactProp}></LeftVLTable>
     </Container>
   );

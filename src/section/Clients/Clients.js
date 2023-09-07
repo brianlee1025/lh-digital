@@ -64,6 +64,7 @@ function Clients() {
             </div>
           );
         })}
+        <div className="client-and-more">and more</div>
       </div>
     </Container>
   );

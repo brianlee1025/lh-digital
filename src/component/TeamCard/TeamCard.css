@@ -1,23 +1,29 @@
 .team-card {
-  border-radius: 25px !important;
+  border-radius: 2.5vw !important;
   overflow: visible !important;
   max-width: 25vw;
   margin: auto;
-  margin-top: 8vw;
   display: flex;
   flex-direction: column;
+  height: 85%;
+  margin: 0 1vw 0 1vw;
 }
 
 .team-card-div {
-  transform: translateY(-5vw);
-  flex: 1; /* consumes all free space (taking full height) */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transform: translateY(-5vw);
 }
 
-/* .team-card-content {
-} */
+.team-card-content {
+  padding: 2vw !important;
+  padding-bottom: unset;
+}
+
+.team-card-content:last-child {
+  padding-bottom: unset;
+}
 
 .team-card-content p {
   text-align: center;

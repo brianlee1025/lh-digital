@@ -1,7 +1,3 @@
-.footer-container {
-  height: 8vh;
-}
-
 .footer-container hr {
   opacity: 1;
   margin: 0;
@@ -11,13 +7,14 @@
   height: inherit;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding-top: 1vw;
 }
 
 .footer-logo {
   margin: auto;
   display: inline-block;
   width: 100%;
-  height: 4vw;
+  height: 3.5vw;
   background: url("/src/assets/images/lh_logo.png") no-repeat left center;
   background-size: contain;
 }
@@ -51,9 +48,8 @@
 
 .footer-copyright {
   width: 100%;
-  margin: auto;
-  display: inline-block;
   text-align: right;
+  padding-bottom: 1vw;
 }
 
 .footer-copyright span {
