@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 function Achievements() {
   return (
-    <Container>
+    <Container className="achievement-container">
       <table className="achievement-table">
         <tbody>
           <tr>

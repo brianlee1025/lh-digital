@@ -4,8 +4,8 @@ import TeamCard from "../../component/TeamCard/TeamCard";
 import "./Team.css";
 
 import JT from "../../assets/images/jt.jpg";
-import TAN from "../../assets/images/tan.png";
-import JASON from "../../assets/images/jason.png";
+import TAN from "../../assets/images/tan.jpg";
+import JASON from "../../assets/images/jason.jpg";
 import LeftVLTable from "../../component/LeftVLTable/LeftVLTable";
 import Achievements from "../Achievements/Achievements";
 import Advisors from "../Advisors/Advisors";

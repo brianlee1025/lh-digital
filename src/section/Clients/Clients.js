@@ -3,23 +3,23 @@ import { Container } from "react-bootstrap";
 import LeftVLTable from "../../component/LeftVLTable/LeftVLTable";
 import "./Client.css";
 
-import ClientImg1 from "../../assets/images/clients-img-1.png";
-import ClientImg2 from "../../assets/images/clients-img-2.png";
-import ClientImg3 from "../../assets/images/clients-img-3.png";
-import ClientImg4 from "../../assets/images/clients-img-4.png";
-import ClientImg5 from "../../assets/images/clients-img-5.png";
-import ClientImg6 from "../../assets/images/clients-img-6.png";
-import ClientImg7 from "../../assets/images/clients-img-7.png";
-import ClientImg8 from "../../assets/images/clients-img-8.png";
-import ClientImg9 from "../../assets/images/clients-img-9.png";
-import ClientImg10 from "../../assets/images/clients-img-10.png";
-import ClientImg11 from "../../assets/images/clients-img-11.png";
-import ClientImg12 from "../../assets/images/clients-img-12.png";
-import ClientImg13 from "../../assets/images/clients-img-13.png";
-import ClientImg14 from "../../assets/images/clients-img-14.png";
-import ClientImg15 from "../../assets/images/clients-img-15.png";
-import ClientImg16 from "../../assets/images/clients-img-16.png";
-import ClientImg17 from "../../assets/images/clients-img-17.png";
+import ClientImg1 from "../../assets/images/clients-img-1.jpg";
+import ClientImg2 from "../../assets/images/clients-img-2.jpg";
+import ClientImg3 from "../../assets/images/clients-img-3.jpg";
+import ClientImg4 from "../../assets/images/clients-img-4.jpg";
+import ClientImg5 from "../../assets/images/clients-img-5.jpg";
+import ClientImg6 from "../../assets/images/clients-img-6.jpg";
+import ClientImg7 from "../../assets/images/clients-img-7.jpg";
+import ClientImg8 from "../../assets/images/clients-img-8.jpg";
+import ClientImg9 from "../../assets/images/clients-img-9.jpg";
+import ClientImg10 from "../../assets/images/clients-img-10.jpg";
+import ClientImg11 from "../../assets/images/clients-img-11.jpg";
+import ClientImg12 from "../../assets/images/clients-img-12.jpg";
+import ClientImg13 from "../../assets/images/clients-img-13.jpg";
+import ClientImg14 from "../../assets/images/clients-img-14.jpg";
+import ClientImg15 from "../../assets/images/clients-img-15.jpg";
+import ClientImg16 from "../../assets/images/clients-img-16.jpg";
+import ClientImg17 from "../../assets/images/clients-img-17.jpg";
 
 function Clients() {
   const leftVLTableClientProp = {

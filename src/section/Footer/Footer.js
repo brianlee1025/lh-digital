@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./Footer.css";
-import LinkedinImg from "../../assets/images/linkedin.png";
-import XImg from "../../assets/images/x.png";
+import LinkedinImg from "../../assets/images/linkedin.jpg";
+import XImg from "../../assets/images/x.jpg";
 
 function Footer() {
   return (

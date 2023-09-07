@@ -25,7 +25,10 @@ function NavigationBar() {
   return (
     <Navbar expand="lg" sticky="top">
       <Container className="navbar-container">
-        <div className="navbar-brand-div">
+        <div
+          className="navbar-brand-div"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
           <Navbar.Brand></Navbar.Brand>
         </div>
 

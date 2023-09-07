@@ -17,9 +17,10 @@
   position: relative;
   width: 100%;
   height: inherit;
-  background-image: url("/src/assets/images/lh_logo.png");
+  background-image: url("/src/assets/images/lh_logo.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 
 .nav-link {
@@ -33,7 +34,6 @@
 }
 
 .navbar-toggler {
-  font-size: 2.5vw;
   height: 5vh;
 }
 
