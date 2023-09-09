@@ -27,6 +27,12 @@
   animation-play-state: paused;
 }
 
+@media (max-width: 575px) {
+  .team-talent-carousel {
+    animation: bgScrollLeft 20s linear infinite;
+  }
+}
+
 @keyframes bgScrollLeft {
   from {
     background-position: 0 0;
