@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lh-digital/static/css/main.5a4ab6df.css",
+    "main.css": "/lh-digital/static/css/main.56a32d37.css",
     "main.js": "/lh-digital/static/js/main.81b56cf4.js",
     "static/js/787.9e2f4eea.chunk.js": "/lh-digital/static/js/787.9e2f4eea.chunk.js",
     "static/media/clients-img-16.jpg": "/lh-digital/static/media/clients-img-16.f22908d46f37512562c6.jpg",
@@ -37,12 +37,12 @@
     "static/media/linkedin.jpg": "/lh-digital/static/media/linkedin.09ea8f4e31612f18a2de.jpg",
     "static/media/lh_shortform_logo.svg": "/lh-digital/static/media/lh_shortform_logo.3e8b8bb9d3584d3a9266b651eb022fb4.svg",
     "index.html": "/lh-digital/index.html",
-    "main.5a4ab6df.css.map": "/lh-digital/static/css/main.5a4ab6df.css.map",
+    "main.56a32d37.css.map": "/lh-digital/static/css/main.56a32d37.css.map",
     "main.81b56cf4.js.map": "/lh-digital/static/js/main.81b56cf4.js.map",
     "787.9e2f4eea.chunk.js.map": "/lh-digital/static/js/787.9e2f4eea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a4ab6df.css",
+    "static/css/main.56a32d37.css",
     "static/js/main.81b56cf4.js"
   ]
 }
