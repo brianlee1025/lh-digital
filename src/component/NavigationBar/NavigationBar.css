@@ -86,7 +86,7 @@
 
 @media (max-width: 991px) {
   .offcanvas {
-    background: rgba(66, 65, 67, 0.8);
+    background: rgba(255, 255, 255, 0.5);
   }
 
   .offcanvas-header .btn-close {

@@ -1,5 +1,5 @@
 .clients-div {
-  margin: 2vw auto;
+  margin: 4vw auto;
   display: grid;
   gap: 1;
   grid-template-columns: repeat(6, 1fr);
