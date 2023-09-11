@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import TeamCard from "../../component/TeamCard/TeamCard";
 import "./Team.css";
 
-import JT from "../../assets/images/jt.jpg";
+import YB from "../../assets/images/bike.jpg";
 import TAN from "../../assets/images/tan.jpg";
 import JASON from "../../assets/images/jason.jpg";
 import LeftVLTable from "../../component/LeftVLTable/LeftVLTable";
@@ -25,8 +25,8 @@ function Team() {
 
   const Team = [
     {
-      avatar: JT,
-      name: "JT",
+      avatar: YB,
+      name: "YB",
       position: "Tech & Product",
       details: [
         [

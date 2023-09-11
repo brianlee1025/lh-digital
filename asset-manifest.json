@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/lh-digital/static/css/main.ac9db9f3.css",
-    "main.js": "/lh-digital/static/js/main.81b56cf4.js",
+    "main.js": "/lh-digital/static/js/main.ccef4611.js",
     "static/js/787.9e2f4eea.chunk.js": "/lh-digital/static/js/787.9e2f4eea.chunk.js",
     "static/media/clients-img-16.jpg": "/lh-digital/static/media/clients-img-16.f22908d46f37512562c6.jpg",
+    "static/media/bike.jpg": "/lh-digital/static/media/bike.b2aa23f53ce177299b3f.jpg",
     "static/media/clients-img-5.jpg": "/lh-digital/static/media/clients-img-5.c962c32f479f74c4e983.jpg",
     "static/media/clients-img-3.jpg": "/lh-digital/static/media/clients-img-3.06aed4b67de4da266a75.jpg",
     "static/media/plantations_blur.jpg": "/lh-digital/static/media/plantations_blur.c9f7bc8c001d2111eac0.jpg",
@@ -38,11 +39,11 @@
     "static/media/lh_shortform_logo.svg": "/lh-digital/static/media/lh_shortform_logo.3e8b8bb9d3584d3a9266b651eb022fb4.svg",
     "index.html": "/lh-digital/index.html",
     "main.ac9db9f3.css.map": "/lh-digital/static/css/main.ac9db9f3.css.map",
-    "main.81b56cf4.js.map": "/lh-digital/static/js/main.81b56cf4.js.map",
+    "main.ccef4611.js.map": "/lh-digital/static/js/main.ccef4611.js.map",
     "787.9e2f4eea.chunk.js.map": "/lh-digital/static/js/787.9e2f4eea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac9db9f3.css",
-    "static/js/main.81b56cf4.js"
+    "static/js/main.ccef4611.js"
   ]
 }
