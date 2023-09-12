@@ -15,7 +15,7 @@ function App() {
       window.location.hostname === "lighthouse-digital.web.app" ||
       window.location.hostname === "lighthouse-digital.firebaseapp.com"
     ) {
-      window.location.href = "lighthouse.xyz";
+      window.location.href = "https://lighthousedigital.xyz";
     }
   }, []);
 

@@ -7,7 +7,7 @@
   height: inherit;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 1vw;
+  padding: 1vw 0 1vw 0;
 }
 
 .footer-logo {
@@ -49,7 +49,9 @@
 .footer-copyright {
   width: 100%;
   text-align: right;
-  padding-bottom: 1vw;
+  margin: auto;
+  display: flex;
+  justify-content: right;
 }
 
 .footer-copyright span {

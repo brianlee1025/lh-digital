@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./Footer.css";
-import LinkedinImg from "../../assets/images/linkedin.jpg";
-import XImg from "../../assets/images/x.jpg";
+// import LinkedinImg from "../../assets/images/linkedin.jpg";
+// import XImg from "../../assets/images/x.jpg";
 
 function Footer() {
   return (
@@ -17,13 +17,13 @@ function Footer() {
           <div className="black-vl"></div>
           <span className="cong-lu-green">Elevate</span>
         </div>
-        <div className="footer-social-media">
+        {/* <div className="footer-social-media">
           <img src={LinkedinImg} alt="LH_LinkedIn"></img>
           <img src={XImg} alt="LH_X"></img>
+        </div> */}
+        <div className="footer-copyright">
+          <span>© 2023 Lighthouse Digital. All Rights Reserved.</span>
         </div>
-      </div>
-      <div className="footer-copyright">
-        <span>© 2023 Lighthouse Digital. All Rights Reserved.</span>
       </div>
     </Container>
   );
