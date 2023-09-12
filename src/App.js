@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import NavigationBar from "./component/NavigationBar/NavigationBar";
 import Clients from "./section/Clients/Clients";
@@ -10,6 +10,15 @@ import Services from "./section/Services/Services";
 import Team from "./section/Team/Team";
 
 function App() {
+  useEffect(() => {
+    if (
+      window.location.hostname === "lighthouse-digital.web.app" ||
+      window.location.hostname === "lighthouse-digital.firebaseapp.com"
+    ) {
+      window.location.href = "lighthouse.xyz";
+    }
+  }, []);
+
   return (
     <div className="App">
       <NavigationBar></NavigationBar>
