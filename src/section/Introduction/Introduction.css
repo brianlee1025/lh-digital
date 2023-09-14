@@ -55,3 +55,9 @@
   line-height: 2.5vw;
   margin-bottom: 3vw;
 }
+
+@media (min-width: 1440) {
+  .intro-container {
+    top: 7vw;
+  }
+}

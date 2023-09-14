@@ -18,8 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "master -d build",
+    "deploy": "react-scripts build && firebase deploy -m \"redeploy\" --only hosting",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

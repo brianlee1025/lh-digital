@@ -30,7 +30,7 @@
 .achievement-table tr:nth-child(3) td {
   padding: 1vw 1.5vw 1.5vw 1.5vw;
   font-family: "AvenirNextLTProBold";
-  font-size: 4vw;
+  font-size: 3.8vw;
 }
 
 @media (min-width: 921px) and (max-width: 991px) {
